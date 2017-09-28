@@ -1,0 +1,30 @@
+"Window" : {
+	backgroundColor: "white"
+}
+
+"Label" : {
+	color: "blue"
+}
+
+".container" : {
+	height: Ti.UI.SIZE
+}
+
+".buttonSpace" : {
+	top: 20
+}
+
+".buttonHGap" : {
+	left: 30
+}
+
+".buttonVGap" : {
+	top: 30,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#closeButton" : {
+	top: 20,
+	right: 20
+}

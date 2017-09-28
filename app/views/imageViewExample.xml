@@ -1,0 +1,15 @@
+<Alloy>
+  <Window id="win">
+    <View class="container" layout="vertical">
+      <View id="animationFrames">
+        <ImageView id="animationStartFrame"/>
+        <ImageView id="animation"/>
+      </View>
+      <Button class="buttonSpace" onClick="onClickPlayAnimation">Play</Button>
+      <Button class="buttonSpace" onClick="onClickStopAnimation">Stop</Button>
+      <Button class="buttonSpace" onClick="onClickSeekAnimation">Seek (frame 50)</Button>
+      <Button class="buttonSpace" onClick="onClickRewindAnimation">Rewind</Button>
+    </View>
+    <Label id="closeButton" onClick="onClickCloseWindow">Close</Label>
+  </Window>
+</Alloy>

@@ -1,0 +1,8 @@
+<Alloy>
+  <Window id="win">
+    <View id="container" class="container" layout="vertical">
+      <Button id='button1' onClick="onClickOpenCustomExample">Custom Animation Example</Button>
+      <Button id='button2' class="buttonSpace" onClick="onClickOpenImageViewExample">ImageView Animation Example</Button>
+    </View>
+  </Window>
+</Alloy>

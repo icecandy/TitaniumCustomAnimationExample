@@ -1,0 +1,16 @@
+
+"#animationFrames": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+
+"#animationStartFrame": {
+	width: 300,
+	height: 300
+}
+
+"#animation": {
+	width: 300,
+	height: 300,
+	repeatCount: 1
+}

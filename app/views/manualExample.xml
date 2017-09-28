@@ -1,0 +1,16 @@
+<Alloy>
+  <Window id="win">
+    <View class="container" layout="vertical">
+      <View id="animation"/>
+      <View layout="horizontal" class="buttonVGap">
+        <Button onClick="onClickPlayAnimation">Play</Button>
+        <Button class="buttonHGap" onClick="onClickStopAnimation">Stop</Button>
+      </View>
+      <View layout="horizontal" class="buttonVGap">
+        <Button onClick="onClickSeekAnimation">Seek (frame 50)</Button>
+        <Button class="buttonHGap" onClick="onClickRewindAnimation">Rewind</Button>
+      </View>
+    </View>
+    <Label id="closeButton" onClick="onClickCloseWindow">Close</Label>
+  </Window>
+</Alloy>
