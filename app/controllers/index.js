@@ -2,6 +2,8 @@
 // @date          27 September 2017
 // @description   Example Titanium project to compare playing animation of an image sequence using
 //                2 methods: a custom library "manualAnimation.js" and the standard Ti.UI.ImageView.images property.
+//@reference      You can read an article on this example on Medium:
+//                https://medium.com/all-titanium/custom-titanium-animation-b5deee2ae71a
 
 Alloy.Globals.animationFilenames = [];
 
